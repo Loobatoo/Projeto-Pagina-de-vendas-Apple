@@ -8,7 +8,7 @@ const ImgIPhone = document.querySelector("#ImgIPhone")
 
 BtnGreen.addEventListener("click", () => {
 
-ImgIPhone.src = `img/iphone_green.jpg`;
+ImgIPhone.src = `/img/iphone_green.jpg`;
 
 BtnGreen.classList.add("selected");
 
@@ -21,7 +21,7 @@ BtnSilver.classList.remove("selected")
 
 BtnSilver.addEventListener("click", () => {
 
-    ImgIPhone.src = `img/iphone_Silver.jpg`;
+    ImgIPhone.src = `/img/iphone_silver.jpg`;
     
     BtnSilver.classList.add("selected");
     
@@ -34,7 +34,7 @@ BtnSilver.addEventListener("click", () => {
 
 BtnGold.addEventListener("click", () => {
 
-    ImgIPhone.src = `img/iphone_golden.jpg`;
+    ImgIPhone.src = `/img/iphone_golden.jpg`;
     
     BtnGold.classList.toggle("selected");
     
@@ -47,7 +47,7 @@ BtnGold.addEventListener("click", () => {
 
 BtnGrafiti.addEventListener("click", () => {
 
-    ImgIPhone.src = `img/iphone_Grafite.jpg`;
+    ImgIPhone.src = `/img/iphone_grafite.jpg`;
     
     BtnGrafiti.classList.toggle("selected");
     
@@ -60,7 +60,7 @@ BtnGrafiti.addEventListener("click", () => {
 
 BtnBlue.addEventListener("click", () => {
 
-    ImgIPhone.src = `img/iphone_Blue.jpg`;
+    ImgIPhone.src = `/img/iphone_blue.jpg`;
     
     BtnBlue.classList.toggle("selected");
     
